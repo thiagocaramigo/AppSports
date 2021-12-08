@@ -33,7 +33,7 @@ export default function Login({navigation}) {
                     let retorno = efetuarLogin();
                     
                     if (retorno[0] == "Logado") {
-                        navigation.navigate("Home", {dados:retorno});
+                        navigation.navigate("Noticias", {dados:retorno});
                     }
                 }}>
                     <Text style={styles.txtbtnlogar}>Logar</Text>

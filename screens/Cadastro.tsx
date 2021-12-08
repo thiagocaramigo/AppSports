@@ -76,9 +76,9 @@ function efetuarCadastro() {
         },
         body:JSON.stringify({
             nome:nome,
-            email:email,
+            email:email.toLowerCase,
             cpf:cpf,
-            usuario:usuario,
+            usuario:usuario.toLowerCase,
             senha:senha,
         }),
     }).then((response)=>response.json())

@@ -70,7 +70,7 @@ function efetuarAtualização(){
             'token':rs
         },
         body:JSON.stringify({
-            nome:nome,
+            nome:nome.toLowerCase,
             email:email
         })
     }).then((response)=>response.json())
