@@ -43,7 +43,7 @@ export default function App() {
             <Image source={{uri:"https://upload.wikimedia.org/wikipedia/commons/8/83/Bra-Cos_%281%29_%28cropped%29.jpg"}} style={styles.imgstories}/>
             <View style={styles.txticon}>
               <Text style={styles.txt}>Neymar</Text>
-              <Image source={require("./assets/iconverifield.png")} style={styles.icon}/>
+              <Image source={require("../assets/iconverifield.png")} style={styles.icon}/>
               </View> 
           </View>
 
@@ -52,7 +52,7 @@ export default function App() {
             <Image source={{uri:"https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg"}} style={styles.imgstories}/>
             <View style={styles.txticon}>
               <Text style={styles.txt}>CR7</Text>
-              <Image source={require("./assets/iconverifield.png")} style={styles.icon}/>
+              <Image source={require("../assets/iconverifield.png")} style={styles.icon}/>
               </View> 
           </View>
 
@@ -60,7 +60,7 @@ export default function App() {
             <Image source={{uri:"https://www.ogol.com.br/img/jogadores/48/557248_med__20190318102658_edilson.png"}} style={styles.imgstories}/>
             <View style={styles.txticon}>
               <Text style={styles.txt}>Edilson</Text>
-              <Image source={require("./assets/iconverifield.png")} style={styles.icon}/>
+              <Image source={require("../assets/iconverifield.png")} style={styles.icon}/>
               </View> 
           </View>
 
@@ -68,7 +68,7 @@ export default function App() {
             <Image source={{uri:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/1200px-Pele_by_John_Mathew_Smith.jpg"}} style={styles.imgstories}/>
             <View style={styles.txticon}>
               <Text style={styles.txt}>Pelé</Text>
-              <Image source={require("./assets/iconverifield.png")} style={styles.icon}/>
+              <Image source={require("../assets/iconverifield.png")} style={styles.icon}/>
               </View> 
           </View>
 
@@ -76,7 +76,7 @@ export default function App() {
             <Image source={{uri:"https://www.diariodopeixe.com.br/wp-content/uploads/2020/09/Cristiane2.jpeg"}} style={styles.imgstories}/>
             <View style={styles.txticon}>
               <Text style={styles.txt}>Cristiane</Text>
-              <Image source={require("./assets/iconverifield.png")} style={styles.icon}/>
+              <Image source={require("../assets/iconverifield.png")} style={styles.icon}/>
               </View> 
           </View>
         </ScrollView>
@@ -91,7 +91,7 @@ export default function App() {
           <Text style={styles.trendingtitulo}>
             Trending
           </Text>
-          <Image source={require("./assets/more.png")} style={styles.trendingmore}/> 
+          <Image source={require("../assets/iconverifield.png")} style={styles.trendingmore}/> 
         </View>
 
         <View style={styles.cxtrendingdetalhe}>
